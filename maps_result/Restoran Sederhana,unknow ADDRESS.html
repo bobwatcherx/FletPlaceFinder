@@ -1,0 +1,174 @@
+<div style="width:100%;"><div style="position:relative;width:100%;height:0;padding-bottom:60%;"><span style="color:#565656">Make this Notebook Trusted to load map: File -> Trust Notebook</span><iframe srcdoc="&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    
+    &lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;
+    
+        &lt;script&gt;
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        &lt;/script&gt;
+    
+    &lt;style&gt;html, body {width: 100%;height: 100%;margin: 0;padding: 0;}&lt;/style&gt;
+    &lt;style&gt;#map {position:absolute;top:0;bottom:0;right:0;left:0;}&lt;/style&gt;
+    &lt;script src=&quot;https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;https://code.jquery.com/jquery-1.12.4.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js&quot;&gt;&lt;/script&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css&quot;/&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css&quot;/&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css&quot;/&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css&quot;/&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css&quot;/&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css&quot;/&gt;
+    
+            &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot; /&gt;
+            &lt;style&gt;
+                #map_32c09356fe8cec08bd58331d7e8f404a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            &lt;/style&gt;
+        
+&lt;/head&gt;
+&lt;body&gt;
+    
+    
+            &lt;div class=&quot;folium-map&quot; id=&quot;map_32c09356fe8cec08bd58331d7e8f404a&quot; &gt;&lt;/div&gt;
+        
+&lt;/body&gt;
+&lt;script&gt;
+    
+    
+            var map_32c09356fe8cec08bd58331d7e8f404a = L.map(
+                &quot;map_32c09356fe8cec08bd58331d7e8f404a&quot;,
+                {
+                    center: [-6.2349, 106.9896],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_cf626a14de7639ba7b3de080d61aceb2 = L.tileLayer(
+                &quot;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&quot;,
+                {&quot;attribution&quot;: &quot;Data by \u0026copy; \u003ca target=\&quot;_blank\&quot; href=\&quot;http://openstreetmap.org\&quot;\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\&quot;_blank\&quot; href=\&quot;http://www.openstreetmap.org/copyright\&quot;\u003eODbL\u003c/a\u003e.&quot;, &quot;detectRetina&quot;: false, &quot;maxNativeZoom&quot;: 18, &quot;maxZoom&quot;: 18, &quot;minZoom&quot;: 0, &quot;noWrap&quot;: false, &quot;opacity&quot;: 1, &quot;subdomains&quot;: &quot;abc&quot;, &quot;tms&quot;: false}
+            ).addTo(map_32c09356fe8cec08bd58331d7e8f404a);
+        
+    
+            var marker_a26ade30b9d6f65c1058a27b6a798bf4 = L.marker(
+                [-6.1937983, 106.9754267],
+                {}
+            ).addTo(map_32c09356fe8cec08bd58331d7e8f404a);
+        
+    
+        var popup_2647e54a703598752cea7c3c0af6eb4a = L.popup({&quot;maxWidth&quot;: 250});
+
+        
+            
+                var html_9231e7e52d76bddc0de9aed6adfc6b17 = $(`&lt;div id=&quot;html_9231e7e52d76bddc0de9aed6adfc6b17&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;KFC Harapan Indah&lt;/b&gt;&lt;br&gt;unknow ADDRESS&lt;/br&gt;latitude : -6.1937983 &lt;br&gt;lognitude : 106.9754267 &lt;br&gt;distance : 4808 m&lt;/div&gt;`)[0];
+                popup_2647e54a703598752cea7c3c0af6eb4a.setContent(html_9231e7e52d76bddc0de9aed6adfc6b17);
+            
+        
+
+        marker_a26ade30b9d6f65c1058a27b6a798bf4.bindPopup(popup_2647e54a703598752cea7c3c0af6eb4a)
+        ;
+
+        
+    
+    
+            var marker_418a99a7c12c464cf99a52c0bdf65ac2 = L.marker(
+                [-6.1937343, 106.9752765],
+                {}
+            ).addTo(map_32c09356fe8cec08bd58331d7e8f404a);
+        
+    
+        var popup_b32410ddb61c6cf092f0c344e1ecec16 = L.popup({&quot;maxWidth&quot;: 250});
+
+        
+            
+                var html_f1db74ad9ce92ce11767ebc279cb5d29 = $(`&lt;div id=&quot;html_f1db74ad9ce92ce11767ebc279cb5d29&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;McDonalds Harapan Indah&lt;/b&gt;&lt;br&gt;unknow ADDRESS&lt;/br&gt;latitude : -6.1937343 &lt;br&gt;lognitude : 106.9752765 &lt;br&gt;distance : 4820 m&lt;/div&gt;`)[0];
+                popup_b32410ddb61c6cf092f0c344e1ecec16.setContent(html_f1db74ad9ce92ce11767ebc279cb5d29);
+            
+        
+
+        marker_418a99a7c12c464cf99a52c0bdf65ac2.bindPopup(popup_b32410ddb61c6cf092f0c344e1ecec16)
+        ;
+
+        
+    
+    
+            var marker_e484ce6608e60e88f29df9b430d7ae62 = L.marker(
+                [-6.1940542, 106.9738925],
+                {}
+            ).addTo(map_32c09356fe8cec08bd58331d7e8f404a);
+        
+    
+        var popup_0f5c9b1ed05240a84d6e9184c919dfb7 = L.popup({&quot;maxWidth&quot;: 250});
+
+        
+            
+                var html_cc8b8be1f1f62ea0f6a6b0fe54cc9fdb = $(`&lt;div id=&quot;html_cc8b8be1f1f62ea0f6a6b0fe54cc9fdb&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;No Name&lt;/b&gt;&lt;br&gt;unknow ADDRESS&lt;/br&gt;latitude : -6.1940542 &lt;br&gt;lognitude : 106.9738925 &lt;br&gt;distance : 4840 m&lt;/div&gt;`)[0];
+                popup_0f5c9b1ed05240a84d6e9184c919dfb7.setContent(html_cc8b8be1f1f62ea0f6a6b0fe54cc9fdb);
+            
+        
+
+        marker_e484ce6608e60e88f29df9b430d7ae62.bindPopup(popup_0f5c9b1ed05240a84d6e9184c919dfb7)
+        ;
+
+        
+    
+    
+            var marker_fac6cb457c13a46a19689da77f02592a = L.marker(
+                [-6.2778592, 106.990893],
+                {}
+            ).addTo(map_32c09356fe8cec08bd58331d7e8f404a);
+        
+    
+        var popup_6f83a36ac7749ef9f029e353eb0c9ae3 = L.popup({&quot;maxWidth&quot;: 250});
+
+        
+            
+                var html_c4d0006e19ccff4abd727d590fc6ba58 = $(`&lt;div id=&quot;html_c4d0006e19ccff4abd727d590fc6ba58&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Pizza Hut&lt;/b&gt;&lt;br&gt;unknow ADDRESS&lt;/br&gt;latitude : -6.2778592 &lt;br&gt;lognitude : 106.990893 &lt;br&gt;distance : 4753 m&lt;/div&gt;`)[0];
+                popup_6f83a36ac7749ef9f029e353eb0c9ae3.setContent(html_c4d0006e19ccff4abd727d590fc6ba58);
+            
+        
+
+        marker_fac6cb457c13a46a19689da77f02592a.bindPopup(popup_6f83a36ac7749ef9f029e353eb0c9ae3)
+        ;
+
+        
+    
+    
+            var marker_a0b6965344572f64d9d0028482754570 = L.marker(
+                [-6.2761439, 106.9882017],
+                {}
+            ).addTo(map_32c09356fe8cec08bd58331d7e8f404a);
+        
+    
+        var popup_52c6b7da40ad4567b3884665915a106d = L.popup({&quot;maxWidth&quot;: 250});
+
+        
+            
+                var html_efe2270534019a013171f15b745f46af = $(`&lt;div id=&quot;html_efe2270534019a013171f15b745f46af&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;&lt;b&gt;Restoran Sederhana&lt;/b&gt;&lt;br&gt;unknow ADDRESS&lt;/br&gt;latitude : -6.2761439 &lt;br&gt;lognitude : 106.9882017 &lt;br&gt;distance : 4564 m&lt;/div&gt;`)[0];
+                popup_52c6b7da40ad4567b3884665915a106d.setContent(html_efe2270534019a013171f15b745f46af);
+            
+        
+
+        marker_a0b6965344572f64d9d0028482754570.bindPopup(popup_52c6b7da40ad4567b3884665915a106d)
+        ;
+
+        
+    
+&lt;/script&gt;
+&lt;/html&gt;" style="position:absolute;width:100%;height:100%;left:0;top:0;border:none !important;" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe></div></div>
